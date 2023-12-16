@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+      
+        <!-- <div class="d-flex justify-content-start"> -->
+          <ul class="navbar2">
+            <li><a href="#beranda"><button type="button" class="btn btn-outline-info">Beranda</button></a></li>
+            <li><a href="#pendidikan"><button type="button" class="btn btn-outline-info">Pendidikan</button></a></li>
+            <li><a href="#SC"><button type="button" class="btn btn-outline-info">skill & certificate</button></a></li>
+            <li><a href="#project"><button type="button" class="btn btn-outline-info">project</button></a></li>
+            <li><a href="#contact"><button type="button" class="btn btn-outline-info">contact</button></a></li>
+          </ul>  
+        <!-- </div> -->
+      
+    </nav>
+    <!-- Beranda -->
+    <div class="container">
+      <div id="beranda">
+          <div class="flex">
+            <div class="text">
+              <div class="introduce">
+                <h1>Hi! My name is Rifa Fachri Ramadhan</h1>
+              <h2>I'm a <span>Web Developer</span></h2>
+              </div>
+              <p>Siswa yang menjalani pendidikan di Smk Wikrama Bogor, dan fokus terhadap membuat dan mengembangkan website.
+                Saya siap memberikan kontribusi yang bertanggung jawab, profesional, dan keinginan berkembang pada perusahaan anda, 
+                serta mendapatkan pengalaman yang berharga untuk meningkatkan keterampilan saya.
+                Klik ini untuk ke <a href="https://www.linkedin.com/in/rifa-fachri-ramadhan-0725812a4" target="_blank">linkedin saya </a></p>
+            </div>
+            <img src="img/profil.jpg" alt="profil" class="profil">
+        </div>
+      </div>
+      <!-- Pendidikan -->
+      <div id="pendidikan">
+        <h1 class="title">Pendidikan</h1> <br>
+        <div class="content">
+            <div class="flex">
+              <div class="text">
+                <h1>SMK Wikrama Bogor</h1>
+                <div class="explain">
+                  <p> Bersekolah di SMK Wikrama Bogor pada tahun 2022 - sekarang, <br>
+                    mengambil jurusan PPLG (Pemograman bahasan lunak dan gim).</p>
+                </div>
+              </div>
+              <img src="img/wk-removebg-preview.png" alt="logo wk" class="education">
+            </div>
+        </div>
+      </div>
+      
+
+      <!-- Skill & certificate -->
+
+      <div id="SC">
+        <div class="position-relative top-50 start-0">
+            <h1 class="title">My Skill & Certificate</h1> 
+          <div class="buttons">
+            <button type="button" class="btn btn-outline-secondary" id="btn-skill">skill</button>
+            <button type="button" class="btn btn-outline-success" id="btn-certificate">certificate</button>
+          </div>
+        </div>
+          <div class="blocks">
+            <div class="skill" id="skill">
+              <h1>Hard Skill</h1>
+              <ul>
+                <div class="skill-card">
+                  <li> 
+                    <img src="img/html.png" alt="html" class="img-skill"><br>
+                    <p>HTML</p>
+                    <progress class="progress" value="85" max="100"> 85% </progress>
+                  </li>
+                </div>
+                <div class="skill-card">
+                  <li> 
+                    <img src="img/css-removebg-preview.png" alt="css" class="img-skill"><br>
+                    <p>CSS</p>
+                    <progress class="progress" value="80" max="100"> 80% </progress>
+                  </li>
+                </div>
+                <div class="skill-card">
+                  <li> 
+                    <img src="img/bootsrap-removebg-preview.png" alt="bootstrap" class="img-skill"><br>
+                    <p>Bootstrap</p>
+                    <progress class="progress" value="77" max="100"> 77% </progress>
+                  </li>
+                </div>
+                <div class="skill-card">
+                  <li> 
+                    <img src="img/php.png" alt="php" class="img-skill"><br>
+                    <p>PHP</p>
+                    <progress class="progress" value="78" max="100"> 78% </progress>
+                  </li>
+                </div>
+                <div class="skill-card">
+                  <li> 
+                    <img src="img/laravel-removebg-preview.png" alt="laravel" class="img-skill"><br>
+                    <p>Laravel</p>
+                    <progress class="progress" value="70" max="100"> 70% </progress>
+                  </li>
+                </div>
+                <div class="skill-card">
+                  <li> 
+                    <img src="img/vue-removebg-preview.png" alt="vue" class="img-skill"><br>
+                    <p>vue</p>
+                    <progress class="progress" value="25" max="100"> 25% </progress>
+                  </li>
+                </div>
+              </ul>
+              <h1>Soft Skill</h1>
+              <div class="skill-card">
+                <li> 
+                  <img src="img/team.png" alt="kerja Sama" class="img-skill"><br>
+                  <p>Team Work</p>
+            </div>
+              <div class="skill-card">
+                <li> 
+                  <img src="img/idea.png" alt="problem Solving" class="img-skill"><br>
+                  <p>Problem Solving</p>
+            </div>
+          </div>
+
+            <div class="certificate" id="certificate">
+              <div class="position-relative top-50 start-100 translate-middle">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/PengenalanDataPemograman.png" class="d-block w-sm" alt="sertifikat 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/MemulaiDasarPemograman.png" class="d-block w-sm" alt="sertifikat 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/pengenalanLogikaPemograman.png" class="d-block w-sm" alt="sertifikat 3" >
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/sertifikat meniti karier.png" class="d-block w-sm" alt="sertifikat 3" >
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              
+
+              
+            </div>
+          
+          
+      </div>
+
+     
+
+      <!-- project -->
+      <div id="project">
+        <h1 class="title">project yang pernah dikerjakan</h1><br>
+        <div class="d-flex justify-content-around">
+          <ul>
+            <li>
+              <div class="card ms-4" style="width: 20rem; height: 460px;">
+                <img src="img/Screenshot(41).png" class="card-img-top" alt="Absensi">
+                <div class="card-body">
+                  <h5 class="card-title">Absensi Eskul dan Senbud</h5>
+                  <p class="card-text">Membuat website Absensi estrakulikuler dengan menggunakan php, untuk memudahkan absensikan dan juga mengamati murid-murid yang mengikuti estrakulikuler</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card ms-4" style="width: 20rem; ">
+                <img src="img/Screenshot(84).png" class="card-img-top" alt="apotek">
+                <div class="card-body">
+                  <h5 class="card-title">Apotek</h5>
+                  <p class="card-text">membuat Apotek website. Website ini dibuat dengan menggunakan Laravel. Webisite ini dikhususkan untuk memudahkan pendataan dari kasir untuk atasan. Website ini dilengkapi dengan fitur untuk mengubah data pembelian seperti invoice menjadi pdf dan untuk pendaatan dapat diubah menjadi excel</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+      
+
+    </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+      <footer id="contact">
+        <h1 class="name">Kontak</h1>
+        <div class="flex">
+          <div class="content-footer">
+            <div class="kontak">
+              <img src="img/phone-call.png" alt="No Telepon" class="contact"><br>
+              <p>085156168341</p>
+            </div>
+            <div class="kontak">
+              <img src="img/home.png" alt="alamat" class="contact"><br>
+              <p>Kp. Cibolang Rt02/Rw08 Desa Teluk Pinang Kec. Ciawi Kab.Bogor Jawa Barat 16720</p>
+            </div>
+          </div>
+            
+          <div class="auto">
+            <div class="kontak">
+              <img src="img/email.png" alt="#email" class="contact"><br>
+              <p>rifafachriramadhan1810@gmail.com</p>
+            </div>
+            <div class="kontak">
+                <img src="img/instagram.png" alt="instagram" class="contact"><br>
+                <p>@rifachrirmd</p>
+            </div>
+          </div>
+          <div class="div"></div>
+        </div>      
+      </footer>
+        
+
+    </div>
+
+
+    <script>
+         var btn_skill = document.getElementById("btn-skill");
+    var btn_certificate = document.getElementById("btn-certificate");
+    var skill = document.getElementById('skill');
+    var certificate = document.getElementById('certificate');
+
+    btn_skill.addEventListener('click', () => {
+        skill.style.display = 'block';
+        certificate.style.display = 'none';
+    });
+
+    btn_certificate.addEventListener('click', () => {
+        skill.style.display = 'none';
+        certificate.style.display = 'block';
+    });
+
+        $(document).ready(function(){
+          var img_width = $(".carousel-item").width();
+          $(".carousel-inner img").css("width", img_width);
+        });
+    </script>
+
+</body>
+</html>

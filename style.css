@@ -1,0 +1,145 @@
+nav{
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 3px 3px gray;
+}
+li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    align-items: center;
+    text-align: center;
+}
+.navbar2 {
+    align-items: normal;
+    text-align: center;
+    justify-content: center;
+
+}
+a {
+    text-decoration: none;
+    font-family: didot;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+.container{
+    margin: 80px 40px 0 40px;
+}
+.flex {
+    display: flex;
+}
+.text {
+    padding-right: 100px;
+}
+.introduce {
+    margin-bottom: 50px;
+}
+#beranda {
+    margin: 100px 0 ;
+}
+.profil {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+span{
+    color: #4CB9E7;
+}
+#pendidikan {
+    margin: 100px 0;
+}
+.content {
+    border-left: 1px solid;
+    padding-left: 25px;
+}
+.explain{
+    margin-top: 50px;
+}
+.education {
+    margin-left: auto;
+}
+#SC {
+    margin: 100px 0;
+}
+.buttons {
+    text-align: center;
+    margin-left: 50px;
+}
+.skill{
+    display: none;
+}
+#skill .img-skill {
+    width: 100px;
+    height: auto;
+    image-rendering: auto;
+}
+#skill .skill-card {
+    display: inline-block;
+    margin: 100px 0 100px 100px;
+    border: 1px;
+    background-color: #B6C4B6;
+}
+#skill .ul {
+    list-style-type: none;
+}
+#skill .progress {
+    width: 100%;
+    background-color: white;
+}
+.certificate{
+    margin-top: 10px;
+    margin-left: 150px;
+    align-items: center;
+    /* background-color: green; */
+    display: none;
+    width: auto;
+    size: auto;
+
+}
+.blocks {
+    display: flex;
+    width: 100%;
+    /* display: none; */
+}
+.carousel-inner img {
+    width: 500px;
+   }
+
+#project {
+    margin: 250px 0;
+
+}
+footer{
+    margin-top: 100px;
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 3px 3px gray;
+    background-color: #4CB9E7;
+}
+
+.auto {
+    margin-left: auto;
+    
+}
+.kontak {
+    display: flex;
+    margin-top: 20px;
+
+}
+.contact {
+    width: 30px;
+    height: 25px;
+    padding-right: 10px;
+}
+.name {
+    text-align: center;
+}
+.div {
+    padding-left: 20px;
+}
+.content-footer{
+    margin-left: 20px;
+}
+.title {
+    color: #0766AD;
+}
